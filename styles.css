@@ -33,6 +33,15 @@ body{
     justify-content: center;
     flex-direction: row;
 }
+ .img-svg a {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.img-svg1{
+    color: #6c8476;
+}
 .container-1 img{
    width: 15rem;
    object-fit: cover;
@@ -40,7 +49,7 @@ body{
    border-radius: 1em;
     box-shadow: #333;
 }
-.dayOfWeek-p{
+.img-svg{
     margin-left: 4rem;
 }
 .dayOfWeek{
@@ -65,7 +74,7 @@ body{
         align-items: center;
         justify-content: center;
     }
-    .dayOfWeek-p{
+    .img-svg{
         margin-left: 0;
     }
 }
