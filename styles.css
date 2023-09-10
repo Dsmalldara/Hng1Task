@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    overflow-x: hidden;
+
+}
+.container{
+    margin: 2rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+ box-shadow: #333;
+  border: 1px solid #333;
+ border-width: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container-1{
+    margin: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.container-1 img{
+   width: 15rem;
+   object-fit: cover;
+   height:20rem;
+   border-radius: 1em;
+    box-shadow: #333;
+}
+.dayOfWeek-p{
+    margin-left: 4rem;
+}
+.dayOfWeek{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #201f1f;
+}
+@media screen and (max-width: 768px) {
+    .container-1 img{
+        width: 10rem;
+        height: 15rem;
+    }
+    .container{
+        width: 60%;
+        margin-right: 3rem;
+        border-radius: 10px;
+    }
+    .container-1{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dayOfWeek-p{
+        margin-left: 0;
+    }
+}
